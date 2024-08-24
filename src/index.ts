@@ -1,10 +1,8 @@
+//SuperHero is an alias for Hero
+// import { Hero as SuperHero } from './classes/Hero';
 
+import * as HeroClasses from './classes/Hero';
 
-console.log('Hola Mundo!');
+const ironman = new HeroClasses.Hero('IronMan', 1, 40);
 
-
-
-
-
-
-
+console.log(ironman);
