@@ -1,9 +1,11 @@
-//SuperHero is an alias for Hero
-// import { Hero as SuperHero } from './classes/Hero';
+import { printObject, genericFunction } from './generics/generics';
 
-import * as HeroClasses from './classes/Hero';
+// printObject(123);
+// printObject('Hello World');
+// printObject({ key: 'value' });
+// printObject(new Date());
+// printObject([1, 2, 3]);
 
-const ironman = new HeroClasses.Hero('IronMan', 1, 40);
-
-console.log(ironman);
-console.log(ironman.power);
+console.log(genericFunction(3.1416));
+console.log(genericFunction('Hello World').toUpperCase());
+console.log(genericFunction(new Date()).getDay());
