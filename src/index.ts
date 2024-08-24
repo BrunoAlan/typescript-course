@@ -1,6 +1,5 @@
-import { printObject, genericFunction } from './generics/generics';
-import { Hero } from './interfaces/hero';
-import { Villain } from './interfaces/villain';
+import { genericFunction } from './generics/generics';
+import { Hero, Villain } from './interfaces';
 
 // printObject(123);
 // printObject('Hello World');
