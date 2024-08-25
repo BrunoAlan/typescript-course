@@ -4,4 +4,5 @@ const charmander = new Pokemon('Charmander');
 
 // (Pokemon.prototype as any).customName = 'Pikachu';
 
-charmander.saveToDatabase(3);
+console.log(charmander);
+charmander.plublicApi = 'https://google.com';
